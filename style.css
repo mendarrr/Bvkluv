@@ -121,4 +121,49 @@
  .btn-archive:hover{
   background: rgb(192, 192, 255);
  }
+
+ .list-containerArchive {
+  width: 50%;
+  margin-right: 20px;
+ }
+
+ .list-containerArchive div{
+  transition: background-color 0.5s, transform 0.5;
+ }
+
+ .list-containerArchive div:hover{
+  background-color: rgb(105, 230, 255);
+  color: black;
+  transform: translateY(-15px);
+ }
+
+ .list-containerlib {
+  width: 50%;
+  margin-left: 20px;
+ }
+
+ .list-containerlib div:hover {
+  background: rgb(192, 192, 255);
+  transform: translateY(-15px);
+ }
+
+ #booklist{
+  list-style-type: none;
+  padding: 10px;
+  margin-left: 100px;
+  color: rgb(0, 238, 255);
+  font-size: 23px;
+  font-weight: 1000;
+  cursor: pointer;
+ }
+
+ #archivelist{
+  list-style-type: none;
+  padding: 10px;
+  margin-left: 200px;
+  color: black;
+  font-size: 23px;
+  font-weight: 1000;
+  cursor: pointer;
+ }
  
