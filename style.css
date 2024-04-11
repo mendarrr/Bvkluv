@@ -167,3 +167,54 @@
   cursor: pointer;
  }
  
+ .card {
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+#bookDetailsCard{
+  padding: 20px;
+}
+
+#archiveDetailsCard {
+  padding: 20px;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+ .starter {
+  width: 500px;
+  background: transparent;
+  border: 2px solid black;
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+  color: black;
+  border-radius: 50px;
+  padding: 10px;
+  margin-right: 320px;
+}
+
+.starter h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.starter .form-group {
+  position: relative;
+  width: 100;
+  height: 100%;
+  margin: 30px 0;
+}
