@@ -68,4 +68,57 @@
   margin: 20px;
  }
  
+ .showBooksBtn {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 32px;
+  font-size: 20px;
+  margin-bottom: 30px;
+  border-radius: 100px;
+  margin-left: 230px;
+  font-size: 20px;
+  cursor: pointer;
+ }
+ 
+ .showArchiveBtn {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 32px;
+  font-size: 20px;
+  margin-bottom: 30px;
+  border-radius: 100px;
+  margin-left: 250px;
+  font-size: 20px;
+  cursor: pointer;
+ }
+
+ .btn-danger {
+  background: transparent;
+  margin-left: 5px;
+  border: none;
+  font-size: 15px;
+  padding: 10px;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+ }
+
+ .btn-danger:hover{
+  background: rgb(0, 238, 255);
+ }
+
+ .btn-archive{
+  background: transparent;
+  margin-left: 5px;
+  border: none;
+  font-size: 15px;
+  padding: 10px;
+  color: rgb(14, 15, 15);
+  cursor: pointer;
+ }
+
+ .btn-archive:hover{
+  background: rgb(192, 192, 255);
+ }
  
