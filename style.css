@@ -69,29 +69,45 @@
  }
  
  .showBooksBtn {
-  background-color: #333;
-  color: #fff;
+  background-color: rgb(0, 238, 255);
+  color: #0c0c0c;
   border: none;
   padding: 10px 32px;
   font-size: 20px;
   margin-bottom: 30px;
   border-radius: 100px;
   margin-left: 230px;
-  font-size: 20px;
+  font-weight: 500;
+  line-height: 3;
+  transition: transform 250ms, box-shadow 250ms;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.5);
   cursor: pointer;
+ }
+
+ .showBooksBtn:hover {
+  box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.5);
+  transform: translateY(-5px);
  }
  
  .showArchiveBtn {
-  background-color: #333;
-  color: #fff;
+  background: lavenderblush;
+  color: #000000;
   border: none;
   padding: 10px 32px;
   font-size: 20px;
   margin-bottom: 30px;
   border-radius: 100px;
   margin-left: 250px;
-  font-size: 20px;
+  font-weight: 500;
+  line-height: 3;
+  transition: transform 250ms, box-shadow 250ms;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.5);
   cursor: pointer;
+ }
+
+ .showArchiveBtn:hover {
+  box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.5);
+  transform: scale(1.05);
  }
 
  .btn-danger {
