@@ -147,3 +147,38 @@ function showArchiveDetails(id) {
     })
     .catch((error) => console.error("Error: " + error));
 }
+// Function that adds more books to the current list
+function formSubmission(e) {
+  e.preventDefault();
+  const id = new Date().getTime();
+  const title = document.getElementById("title").value;
+  const authors = document.getElementById("authors").value;
+  const edition = document.getElementById("edition").value;
+  const publication_date = document.getElementById("publication_date").value;
+  const purchase_date = document.getElementById("purchase_date").value;
+  const location = document.getElementById("location").value;
+  const genre = document.getElementById("genre").value;
+
+  fetch("http://localhost:3000/books", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      id: id,
+      title: title,
+      authors: authors,
+      edition: edition,
+      publication_date: publication_date,
+      purchase_date: purchase_date,
+      location: location,
+      genre: genre,
+    }),
+  })
+    .then((response) => response.json())
+    .then((books) => {
+      console.log("Book added:" + books.length);
+    })
+    .catch((error) => console.error("Error: " + error));
+}
+document.querySelector("#addbks").addEventListener("submit", formSubmission);
