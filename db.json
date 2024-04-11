@@ -245,6 +245,16 @@
       "purchase_date": "2022-09-20",
       "location": "Shelf B",
       "genre": "Fiction"
+    },
+    {
+      "id": 1712870320298,
+      "title": "In 27 Days",
+      "authors": "Alison Gervais",
+      "edition": "1st",
+      "publication_date": "2017-07-25",
+      "purchase_date": "2022-09-29",
+      "location": "Bookshelf C",
+      "genre": "Young Adult"
     }
   ],
   "archive": [
