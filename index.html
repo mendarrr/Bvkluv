@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bvkluv App</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://kit.fontawesome.com/c3d0b246eb.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="header">
+      <div class="item">
+        <h2 class="app-icon">
+          <i class="fa-solid fa-book-open-reader"></i>
+          <div class="content">Bvkluv</div>
+        </h2>
+      </div>
+    </div>
+    <div id="container">
+    
+      <div class="list-containerlib">
+        <button id="showBooks" class="showBooksBtn">My Library</button>
+         <ul id="booklist"></ul>
+      <div id="bookDetailsCard" class="card">
+        <div class="card-body">
+          <h5 id="bookTitle" class="card-title"></h5>
+          <p id="bookAuthors" class="card-text"></p>
+          <p id="bookDescription" class="card-text"></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="starter">
+      <form action="" id="addbks">
+        <h1><i class="fa-regular fa-star-half-stroke fa-spin" class="star"></i></h1>
+        <div class="form-group">
+            <input type="hidden" id="id" name="id" value="">
+          
+            <label for="title">Title:</label>
+            <input type="text" id="title" name="title" value=""><br>
+          
+            <label for="authors">Authors:</label>
+            <input type="text" id="authors" name="authors" value=""><br>
+          
+            <label for="edition">Edition:</label>
+            <input type="text" id="edition" name="edition" value=""><br>
+          
+            <label for="publication_date">Publication Date:</label>
+            <input type="date" id="publication_date" name="publication_date" value=""><br>
+          
+            <label for="purchase_date">Purchase Date:</label>
+            <input type="date" id="purchase_date" name="purchase_date" value=""><br>
+          
+            <label for="location">Location:</label>
+            <input type="text" id="location" name="location" value=""><br>
+          
+            <label for="genre">Genre:</label>
+            <input type="text" id="genre" name="genre" value=""><br>
+          
+            <button type="submit" class="btn">ADD</button>
+        </div>
+      </form>
+    </div>
+    
+    <div class="list-containerArchive">
+      <button id="readBooks" class="showArchiveBtn">Archive</button>
+      <ul id="archivelist"></ul>
+    <div id="archiveDetailsCard" class="card">
+      <div class="card-body">
+        <h5 id="bookTitle" class="card-title"></h5>
+        <p id="bookAuthors" class="card-text"></p>
+        <p id="bookDescription" class="card-text"></p>
+    </div>
+    </div>
+  </div>
+      <script src="./script.js"></script>
+  </body>
+</html>

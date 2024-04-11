@@ -1,0 +1,486 @@
+{
+  "books": [
+    {
+      "id": "1",
+      "title": "The Hitchhiker's Guide to the Galaxy",
+      "authors": [
+        "Douglas Adams"
+      ],
+      "edition": "1st",
+      "publication_date": "1979-10-12",
+      "purchase_date": "2021-06-01",
+      "location": "Science Fiction Shelf",
+      "genre": "Science Fiction",
+      "notes": "A hilarious and thought-provoking journey through the galaxy. A must-read for any space enthusiast!"
+    },
+    {
+      "id": "6",
+      "title": "It Ends with Us",
+      "authors": [
+        "Colleen Hoover"
+      ],
+      "edition": "1st",
+      "publication_date": "2016-08-02",
+      "purchase_date": "2022-04-05",
+      "location": "Romance Shelf",
+      "genre": "Romance",
+      "notes": "A heart-wrenching story about love, loss, and the power of forgiveness. A must-read for any romance fan!"
+    },
+    {
+      "id": "7",
+      "title": "Verity",
+      "authors": [
+        "Colleen Hoover"
+      ],
+      "edition": "1st",
+      "public_date": "2018-12-07",
+      "purchase_date": "2022-04-01",
+      "location": "Thriller Shelf",
+      "genre": "Thriller",
+      "notes": "A gripping psychological thriller that will keep you on the edge of your seat. A great read for anyone who loves a good mystery."
+    },
+    {
+      "id": "8",
+      "title": "The Whispering Forest",
+      "authors": [
+        "Evelyn M. Turner"
+      ],
+      "edition": "3rd Edition",
+      "publication_date": "2022-03-15",
+      "purchase_date": "2023-08-20",
+      "location": "Living Room",
+      "genre": "Fantasy",
+      "notes": "A captivating tale of magic and mystery."
+    },
+    {
+      "id": "9",
+      "title": "The Midnight Library",
+      "authors": [
+        "Matt Haig"
+      ],
+      "edition": "1st Edition",
+      "publication_date": "2021-09-10",
+      "purchase_date": "2022-05-05",
+      "location": "Study",
+      "genre": "Fiction",
+      "notes": "Thought-provoking exploration of alternate lives."
+    },
+    {
+      "id": "10",
+      "title": "The Night Circus",
+      "authors": [
+        "Erin Morgenstern"
+      ],
+      "edition": "1st Edition",
+      "publication_date": "2011-09-13",
+      "purchase_date": "2023-02-28",
+      "location": "Bedroom",
+      "genre": "Fantasy",
+      "notes": "Enchanting and beautifully written; a must-read for dreamers."
+    },
+    {
+      "id": "11",
+      "title": "Educated",
+      "authors": [
+        "Tara Westover"
+      ],
+      "edition": "Paperback",
+      "publication_date": "2018-02-20",
+      "purchase_date": "2022-11-10",
+      "location": "Bookshelf",
+      "genre": "Memoir",
+      "notes": "A powerful memoir about resilience and education."
+    },
+    {
+      "id": "12",
+      "title": "The Night Circus",
+      "authors": [
+        "Erin Morgenstern"
+      ],
+      "edition": "1st Edition",
+      "publication_date": "2011-09-13",
+      "purchase_date": "2023-02-28",
+      "location": "Bedroom bookshelf",
+      "genre": "Fantasy",
+      "notes": "A powerful memoir about resilience and education."
+    },
+    {
+      "id": "11",
+      "title": "Educated",
+      "authors": [
+        "Tara Westover"
+      ],
+      "edition": "Paperback",
+      "publication_date": "2018-02-20",
+      "purchase_date": "2022-11-10",
+      "location": "Bookshelf",
+      "genre": "Memoir",
+      "notes": "A powerful memoir about resilience and education."
+    },
+    {
+      "id": "13",
+      "title": "The Lies of Locke Lamora",
+      "authors": [
+        "Scott Lynch"
+      ],
+      "edition": "Mass Market Paperback",
+      "publication_date": "2006-06-27",
+      "purchase_date": "2022-08-15",
+      "location": "Study",
+      "genre": "Fantasy",
+      "notes": "Witty and Cunning Fantasy Heists."
+    },
+    {
+      "id": "17",
+      "title": "The Secret History",
+      "authors": [
+        "Donna Tartt"
+      ],
+      "edition": "Trade Paperback",
+      "publication_date": "1992-09-11",
+      "purchase_date": "2023-03-18",
+      "location": "Bookshelf A",
+      "genre": "Literary Fiction",
+      "notes": "Dark Academia and Secrets."
+    },
+    {
+      "id": "18",
+      "title": "The Alchemist",
+      "authors": [
+        "Paulo Coelho"
+      ],
+      "edition": "Anniversary Edition",
+      "publication_date": "1988-04-25",
+      "purchase_date": "2024-02-02",
+      "location": "Living Room",
+      "genre": "Inspirational Fiction",
+      "notes": "Soul-searching quest for destiny."
+    },
+    {
+      "id": "19",
+      "title": "The Nightingale",
+      "authors": [
+        "Kristin Hannah"
+      ],
+      "edition": "Hardcover",
+      "publication_date": "2015-02-03",
+      "purchase_date": "2023-09-10",
+      "location": "Bookshelf",
+      "genre": "Historical Fiction",
+      "notes": "Heartrending world war ii tale."
+    },
+    {
+      "id": "20",
+      "title": "The Wind-up Bird Chronicle",
+      "authors": [
+        "Haruki Murakami"
+      ],
+      "edition": "1st edition",
+      "publication_date": "1994-04-12",
+      "purchase_date": "2022-12-05",
+      "location": "Study",
+      "genre": "Surreal Fiction",
+      "notes": "Mind-bending exploration of identity."
+    },
+    {
+      "id": "21",
+      "title": "The Power of Habit",
+      "authors": [
+        "Charles Duhigg"
+      ],
+      "edition": "Trade Paperback",
+      "publication_date": "2012-02-28",
+      "purchase_date": "2023-05-15",
+      "location": "Living Room",
+      "genre": "Self-help",
+      "notes": "Insightful study on habits and change."
+    },
+    {
+      "id": "24",
+      "title": "The Forgotten Atlas",
+      "authors": [
+        "Samuel Archer"
+      ],
+      "edition": "Collector's edition",
+      "publication_date": "2022-11-30",
+      "purchase_date": "2023-12-05",
+      "location": "Antique bookshelf in the living room",
+      "genre": "Adventure",
+      "notes": "Maps, lost civilizations, and hidden treasures—pure escapism"
+    },
+    {
+      "id": "25",
+      "title": "Ink and Illusion",
+      "authors": [
+        "Isabella Russo"
+      ],
+      "edition": "Limited edition",
+      "publication_date": "2023-07-12",
+      "purchase_date": "2023-09-02",
+      "location": "Art nook",
+      "genre": "Magical realism",
+      "notes": "A whimsical blend of art, mystery, and enchantment"
+    },
+    {
+      "id": "26",
+      "title": "The Solitude Paradox",
+      "authors": [
+        "Daniel Park"
+      ],
+      "edition": "Paperback",
+      "publication_date": "2024-04-02",
+      "purchase_date": "2024-04-15",
+      "location": "Cozy reading corner",
+      "genre": "Contemporary fiction",
+      "notes": "Introspective exploration of human connections"
+    },
+    {
+      "id": "1712814526948",
+      "title": "Serated",
+      "authors": [
+        "Sally Rooney"
+      ],
+      "edition": "1st",
+      "publication_date": "2018-06-06",
+      "purchase_date": "2022-09-20",
+      "location": "Shelf B",
+      "genre": "Fiction"
+    }
+  ],
+  "archive": [
+    {
+      "id": "29",
+      "title": "The Velvet Hourglass",
+      "authors": [
+        "Clara Bennett"
+      ],
+      "edition": "Signed first edition",
+      "publication_date": "2024-01-15",
+      "purchase_date": "2024-03-05",
+      "location": "Collector's showcase",
+      "genre": "Gothic mystery",
+      "notes": "Atmospheric and haunting—a hidden gem"
+    },
+    {
+      "id": "30",
+      "title": "The Quantum Paradox",
+      "authors": [
+        "Ryan Lee"
+      ],
+      "edition": "Audio book",
+      "publication_date": "2023-11-10",
+      "purchase_date": "2024-02-28",
+      "location": "Commute playlist",
+      "genre": "Science thriller",
+      "notes": "Mind-bending theories collide with suspense"
+    },
+    {
+      "id": "31",
+      "title": "The Glass Orchid",
+      "authors": [
+        "Elena Martinez"
+      ],
+      "edition": "Leather-bound",
+      "publication_date": "2022-08-20",
+      "purchase_date": "2023-06-10",
+      "location": "Heirloom collection",
+      "genre": "Historical romance",
+      "notes": "A tale of forbidden love in a Venetian palazzo"
+    },
+    {
+      "id": "33",
+      "title": "Quantum Nexus",
+      "authors": [
+        "Alexandra J. Reynolds"
+      ],
+      "edition": "1st Edition",
+      "publication_date": "2023-06-10",
+      "purchase_date": "2023-11-02",
+      "location": "Study room",
+      "genre": "Science Fiction",
+      "notes": "A mind-bending journey through parallel universes, where quantum entanglement becomes a gateway to alternate realities. Reynolds weaves intricate plots and multidimensional characters, leaving readers questioning the very fabric of existence."
+    },
+    {
+      "id": "34",
+      "title": "The Synth Chronicles",
+      "authors": [
+        "Evan K. Mercer"
+      ],
+      "edition": "3rd Edition",
+      "publication_date": "2021-09-05",
+      "purchase_date": "2022-05-18",
+      "location": "Bedroom",
+      "genre": "Science Fiction",
+      "notes": "Mercer's cyberpunk saga delves into the lives of synthetic beings seeking autonomy in a dystopian megacity. The neon-lit streets pulse with intrigue, and the characters' struggles mirror our own quest for identity and purpose."
+    },
+    {
+      "id": "35",
+      "title": "Switchable Neutral Algorithm",
+      "authors": [
+        "Samantha, Jasmine, Matthew"
+      ],
+      "edition": "2nd Edition",
+      "publication_date": "2023-02-28",
+      "purchase_date": "2023-07-10",
+      "location": "Bookshelf",
+      "genre": "Science Fiction",
+      "notes": "An exhilarating blend of cyber espionage and quantum computing. The protagonist, an enigmatic hacker, races against time to prevent a global catastrophe. The narrative crackles with tension, and the plot twists are as unpredictable as a quantum particle's spin."
+    },
+    {
+      "id": "36",
+      "title": "Love in the Mist",
+      "authors": [
+        "Evelyn Harper"
+      ],
+      "edition": "1st Edition",
+      "publication_date": "2022-03-15",
+      "purchase_date": "2023-09-20",
+      "location": "Shelf B",
+      "genre": "Romance",
+      "notes": "A captivating tale of forbidden love set against the backdrop of a quaint English village. The characters are beautifully flawed, and the prose is as delicate as the petals of a wildflower."
+    },
+    {
+      "id": "37",
+      "title": "Whispers at Twilight",
+      "authors": [
+        "Isabella Rivers"
+      ],
+      "edition": "2nd Edition",
+      "publication_date": "2021-08-10",
+      "purchase_date": "2023-04-05",
+      "location": "Nightstand",
+      "genre": "Romance",
+      "notes": "An enchanting historical romance that transports you to Regency-era London. The chemistry between the brooding duke and the spirited governess is electric."
+    },
+    {
+      "id": "38",
+      "title": "Midnight Serenade",
+      "authors": [
+        "Lucia Montgomery"
+      ],
+      "edition": "3rd Edition",
+      "publication_date": "2020-11-28",
+      "purchase_date": "2023-01-10",
+      "location": "Desk",
+      "genre": "Romance",
+      "notes": "A modern-day fairy tale where a reclusive pianist finds solace in the haunting melodies of a mysterious violinist. Prepare for heartache and redemption."
+    },
+    {
+      "id": "39",
+      "title": "The Art of Holding Hands",
+      "authors": [
+        "Oliver Bennett"
+      ],
+      "edition": "1st Edition",
+      "publication_date": "2023-02-05",
+      "purchase_date": "2024-03-18",
+      "location": "Shelf A",
+      "genre": "Romance",
+      "notes": "A slow-burn romance that explores the complexities of human connection. The prose is lyrical, and the characters linger in your thoughts long after you've turned the last page."
+    },
+    {
+      "id": "40",
+      "title": "Sunset Embrace",
+      "authors": [
+        "Lila Adams"
+      ],
+      "edition": "4th Edition",
+      "publication_date": "2019-06-22",
+      "purchase_date": "2023-11-02",
+      "location": "Shelf B",
+      "genre": "Romance",
+      "notes": "Set against the backdrop of a vineyard in Tuscany, this novel weaves together love, loss, and the healing power of family. The descriptions of sunsets are achingly beautiful."
+    },
+    {
+      "id": "41",
+      "title": "Moonlit Whispers",
+      "authors": [
+        "Serena Blake"
+      ],
+      "edition": "1st Edition",
+      "publication_date": "2023-05-12",
+      "purchase_date": "2024-02-10",
+      "location": "Bedside table",
+      "genre": "Romance",
+      "notes": "A paranormal romance where a ghostly violinist's haunting melodies lead a grieving widow to unexpected love. Prepare for tears and goosebumps."
+    },
+    {
+      "id": "42",
+      "title": "Café au Lait and Love Letters",
+      "authors": [
+        "Sophie Laurent"
+      ],
+      "edition": "2nd Edition",
+      "publication_date": "2022-09-05",
+      "purchase_date": "2023-12-20",
+      "location": "Kitchen counter",
+      "genre": "Romance",
+      "notes": "Set in a cozy Parisian café, this novel celebrates the magic of handwritten letters and the warmth of a perfectly brewed latte. Swoon-worthy!"
+    },
+    {
+      "id": "43",
+      "title": "The Bookshop on Maple Street",
+      "authors": [
+        "Olivia Bennett"
+      ],
+      "edition": "1st Edition",
+      "publication_date": "2023-03-18",
+      "purchase_date": "2024-01-05",
+      "location": "Bookshelf by the window",
+      "genre": "Romance",
+      "notes": "A heartwarming story of community, second chances, and the healing power of books. The quirky bookshop owner stole my heart."
+    },
+    {
+      "id": "44",
+      "title": "Sunflowers and Serendipity",
+      "authors": [
+        "Lucas Adams"
+      ],
+      "edition": "3rd Edition",
+      "publication_date": "2021-11-10",
+      "purchase_date": "2023-08-15",
+      "location": "Sunroom",
+      "genre": "Romance",
+      "notes": "A slow-burn romance set in a sunflower field. The chemistry between the introverted botanist and the free-spirited artist is as vibrant as the blooms."
+    },
+    {
+      "id": "45",
+      "title": "The Midnight Library of Lost Loves",
+      "authors": [
+        "Nora Sinclair"
+      ],
+      "edition": "1st Edition",
+      "publication_date": "2023-01-30",
+      "purchase_date": "2024-04-02",
+      "location": "Secret compartment under the bed",
+      "genre": "Romance",
+      "notes": "A magical library where lost love stories come alive. Each book holds a piece of someone's heart. Beware: you might find your own story."
+    },
+    {
+      "id": "46",
+      "title": "The Silent Conspiracy",
+      "authors": [
+        "Alexandra Blake"
+      ],
+      "edition": "1st Edition",
+      "publication_date": "2023-07-20",
+      "purchase_date": "2024-02-28",
+      "location": "Hidden compartment behind the fireplace",
+      "genre": "Thriller",
+      "notes": "A gripping political conspiracy that unravels across continents. The protagonist, a journalist, stumbles upon a secret society with deadly intentions."
+    },
+    {
+      "id": "47",
+      "title": "Shadows in the Fog",
+      "authors": [
+        "Duncan Monroe"
+      ],
+      "edition": "2nd Edition",
+      "publication_date": "2022-11-12",
+      "purchase_date": "2023-09-10",
+      "location": "Attic",
+      "genre": "Thriller",
+      "notes": "A psychological thriller set in a remote Scottish village. The mist conceals more than just secrets—it hides malevolent forces."
+    }
+  ]
+}
