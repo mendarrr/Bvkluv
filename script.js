@@ -129,3 +129,21 @@ function deleteBook(bookId) {
     })
     .catch((error) => console.error("Error: " + error));
 }
+// Function to show archive details
+function showArchiveDetails(id) {
+  // Fetch archive details and display them
+  fetch(`http://localhost:3000/archive/${id}`)
+    .then((response) => response.json())
+    .then((book) => {
+      archiveDetailsCard.innerHTML = "";
+      archiveDetailsCard.innerHTML = `<h2>${book.title}</h2>
+     <p>Authors: ${book.authors}</p>
+     <p>Edition: ${book.edition}</p>
+     <p>Publication Date: ${book.publication_date}</p>
+     <p>Purchase Date: ${book.purchase_date}</p>
+     <p>Location: ${book.location}</p>
+     <p>Genre: ${book.genre}</p>
+     <p>Notes: ${book.notes}</p>`;
+    })
+    .catch((error) => console.error("Error: " + error));
+}
