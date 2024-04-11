@@ -107,3 +107,25 @@ function accessArchive() {
     }
   });
 }
+function deleteBook(bookId) {
+  fetch(`http://localhost:3000/archive/${bookId}`, {
+    method: "DELETE",
+    headers: {
+      "Content-Type": "application/json",
+    },
+  })
+    .then((response) => {
+      if (response.ok) {
+        // If the deletion is successful, remove the corresponding list item from the DOM
+        const listItemToRemove = document.querySelector(
+          `li[data-book-id="${bookId}"]`
+        );
+        if (listItemToRemove) {
+          listItemToRemove.remove();
+        }
+      } else {
+        throw new Error("Error deleting book");
+      }
+    })
+    .catch((error) => console.error("Error: " + error));
+}
