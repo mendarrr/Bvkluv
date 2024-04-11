@@ -42,8 +42,8 @@
   font-size: 100px;
   font-weight: 600;
   background: url(/assets/background.jpg);
-  -webkit-text-stroke: 2px #b0fcff;
-  -webkit-background-clip: text;
+  -webkit-text-stroke: 2px #944700;
+  background-clip: text;
   background-position: 0 0;
   animation: back 25s linear infinite;
 }
