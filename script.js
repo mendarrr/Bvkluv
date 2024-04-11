@@ -1,5 +1,5 @@
 // Global Variables declared
-let booksVisible = false; 
+let booksVisible = false;
 let archiveVisible = false;
 accessBooks();
 
@@ -7,10 +7,9 @@ accessBooks();
 function accessBooks() {
   const showBooksButton = document.querySelector("#showBooks");
   const booklist = document.querySelector("#booklist");
-// Card that displays the book's details
+
+  // Card that displays the book's details
   const bookDetailsCard = document.querySelector("#bookDetailsCard");
-// Declare a variable for books removed from the current reading list
-  const archivedBooks = document.querySelector("#readBooks");
 
   showBooksButton.addEventListener("click", () => {
     // Add a toggle mechanism to the button
@@ -27,10 +26,11 @@ function accessBooks() {
 
             // Add an archive button which handles the achievedBooks function
             const archiveBtn = document.createElement("button");
-            // Add a class list for easy styling in CSS 
-            archiveBtn.classList.add('btn', 'btn-archive');
+            // Add a class list for easy styling in CSS
+            archiveBtn.classList.add("btn", "btn-archive");
             // Use an icon as a button instead of text-content
-            archiveBtn.innerHTML = '<i class="fa-solid fa-box-archive fa-beat"></i>';
+            archiveBtn.innerHTML =
+              '<i class="fa-solid fa-box-archive fa-beat"></i>';
             archiveBtn.addEventListener("click", () => archivedBooks(book.id));
             li.appendChild(archiveBtn);
 
@@ -39,14 +39,14 @@ function accessBooks() {
             booklist.appendChild(li);
           });
           // Update booksVisible to true after showing the list
-          booksVisible = true; 
+          booksVisible = true;
         })
         .catch((error) => console.error("Error: " + error));
     } else {
       // If books are already visible, clear the list
       booklist.innerHTML = "";
       // Update booksVisible to false
-      booksVisible = false; 
+      booksVisible = false;
     }
   });
 }
@@ -57,8 +57,8 @@ function showBookDetails(id) {
     .then((response) => response.json())
     .then((book) => {
       bookDetailsCard.innerHTML = "";
-      bookDetailsCard.innerHTML = 
-      // Display the book details by using the key values of the book object as in the db.json file
+      bookDetailsCard.innerHTML =
+        // Display the book details by using the key values of the book object as in the db.json file
         `<h2>${book.title}</h2>
         <p>Authors: ${book.authors}</p>
         <p>Edition: ${book.edition}</p>
@@ -108,14 +108,14 @@ function accessArchive() {
             archivelist.appendChild(li);
           });
           // Update archiveVisible to true after showing the list
-          archiveVisible = true; 
+          archiveVisible = true;
         })
         .catch((error) => console.error("Error: " + error));
     } else {
       // If archive is already visible, clear the list
       archivelist.innerHTML = "";
       // Update archiveVisible to false
-      archiveVisible = false; 
+      archiveVisible = false;
     }
   });
 }
@@ -147,9 +147,9 @@ function showArchiveDetails(id) {
     .then((response) => response.json())
     .then((book) => {
       archiveDetailsCard.innerHTML = "";
-      archiveDetailsCard.innerHTML = 
-      // Display the book details by using the key values of the book object as in the db.json file
-    `<h2>${book.title}</h2>
+      archiveDetailsCard.innerHTML =
+        // Display the book details by using the key values of the book object as in the db.json file
+        `<h2>${book.title}</h2>
      <p>Authors: ${book.authors}</p>
      <p>Edition: ${book.edition}</p>
      <p>Publication Date: ${book.publication_date}</p>
@@ -180,7 +180,7 @@ function formSubmission(event) {
       "Content-Type": "application/json",
     },
     body: JSON.stringify({
-  // Book Details using properties
+      // Book Details using properties
       id: id,
       title: title,
       authors: authors,
