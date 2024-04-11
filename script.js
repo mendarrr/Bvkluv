@@ -64,4 +64,46 @@ function showBookDetails(id) {
     .catch((error) => console.error("Error: " + error));
 }
 
+accessArchive();
+// Function that allows the user to access the archive
+function accessArchive() {
+  const showArchiveBtn = document.querySelector("#readBooks");
+  const archivelist = document.querySelector("#archivelist");
+  const archiveDetailsCard = document.querySelector("#archiveDetailsCard");
 
+  showArchiveBtn.addEventListener("click", () => {
+    // Add a toggle mechanism to the button
+    if (!archiveVisible) {
+      fetch("http://localhost:3000/archive")
+        .then((response) => response.json())
+        .then((archive) => {
+          archivelist.innerHTML = "";
+          archive.forEach((book) => {
+            const li = document.createElement("li");
+            li.textContent = `${book.title}`;
+
+            // Add a delete button
+            const deleteBtn = document.createElement("button");
+            deleteBtn.classList.add("btn", "btn-danger"); // Add custom classes for styling
+            deleteBtn.innerHTML = '<i class="fa-solid fa-trash fa-fade"></i>';
+            deleteBtn.addEventListener("click", () => deleteBook(book.id));
+            li.appendChild(deleteBtn);
+            // Add an event listener to each delete button
+            deleteBtn.addEventListener("click", (event) => {
+              const bookId = event.target.dataset.bookId;
+              deleteBook(bookId);
+            });
+            // Add an event listener to the li
+            li.addEventListener("click", () => showArchiveDetails(book.id));
+            archivelist.appendChild(li);
+          });
+          archiveVisible = true; // Update archiveVisible to true after showing the list
+        })
+        .catch((error) => console.error("Error: " + error));
+    } else {
+      // If archive is already visible, clear the list
+      archivelist.innerHTML = "";
+      archiveVisible = false; // Update archiveVisible to false
+    }
+  });
+}
