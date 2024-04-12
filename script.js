@@ -199,3 +199,39 @@ function formSubmission(event) {
 }
 // Add an event listener to the button
 document.querySelector("#addbks").addEventListener("submit", formSubmission);
+
+// function bookArchiving(event) {
+//   event.preventDefault();
+
+//   const title = document.getElementById("title").value;
+//   const authors = document.getElementById("authors").value;
+//   const edition = document.getElementById("edition").value;
+//   const publication_date = document.getElementById("publication_date").value;
+//   const purchase_date = document.getElementById("purchase_date").value;
+//   const location = document.getElementById("location").value;
+//   const genre = document.getElementById("genre").value;
+
+//   fetch("http://localhost:3000/archive", {
+//     method: "POST",
+//     headers: {
+//       "Content-Type": "application/json",
+//     },
+//     body: JSON.stringify({
+//       // Book Details using properties
+//       title: title,
+//       authors: authors,
+//       edition: edition,
+//       publication_date: publication_date,
+//       purchase_date: purchase_date,
+//       location: location,
+//       genre: genre,
+//     }),
+//   })
+//    .then((response) => response.json())
+//    .then((books) => {
+//       console.log("Book added:" + books.length);
+//     })
+//     .catch((error) => console.error("Error: " + error));
+// }
+// // Add an event listener to the button
+// document.querySelector(".btn-archive").addEventListener("click", bookArchiving);

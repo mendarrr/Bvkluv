@@ -30,7 +30,7 @@
   display: flex;
   align-items: center;
   font-size: 50px;
-  color: blanchedalmond;
+  color: rgb(179, 110, 8);
  }
  
  .content {
@@ -86,7 +86,8 @@
 
  .showBooksBtn:hover {
   box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.5);
-  transform: translateY(-5px);
+  transform: scale(1.05);
+  transform: translateY(-25px);
  }
  
  .showArchiveBtn {
@@ -107,7 +108,8 @@
 
  .showArchiveBtn:hover {
   box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.5);
-  transform: translateY(-5px);
+  transform: scale(1.05);
+  transform: translateY(-25px);
  }
 
  .btn-danger {
