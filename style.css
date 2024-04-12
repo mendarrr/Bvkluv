@@ -159,7 +159,7 @@
  }
 
  .list-containerlib div:hover {
-  background: rgb(192, 192, 255);
+  background: lavenderblush;
   transform: translateY(-15px);
  }
 
