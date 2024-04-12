@@ -96,7 +96,7 @@ function accessArchive() {
             const li = document.createElement("li");
             li.textContent = `${book.title}`;
 
-            // Add a delete button for each book listed
+            // Add a delete button for each book listed in the archive
             const deleteBtn = document.createElement("button");
             // Add a class list for easy styling in CSS
             deleteBtn.classList.add("btn", "btn-danger");
