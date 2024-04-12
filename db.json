@@ -233,6 +233,136 @@
       "location": "Cozy reading corner",
       "genre": "Contemporary fiction",
       "notes": "Introspective exploration of human connections"
+    },
+    {
+      "id": "132",
+      "title": "The Shadow of the Wind",
+      "authors": [
+        "Carlos Ruiz Zafón"
+      ],
+      "edition": "First edition",
+      "publication_date": "2001-01-01",
+      "purchase_date": "2024-04-15",
+      "location": "Bookshelf",
+      "genre": "Mystery",
+      "notes": "A captivating and atmospheric mystery"
+    },
+    {
+      "id": "133",
+      "title": "The Night Circus",
+      "authors": [
+        "Erin Morgenstern"
+      ],
+      "edition": "First edition",
+      "publication_date": "2011-01-01",
+      "purchase_date": "2024-05-01",
+      "location": "Bookshelf",
+      "genre": "Fantasy",
+      "notes": "A magical and enchanting tale"
+    },
+    {
+      "id": "134",
+      "title": "The Time Traveler's Wife",
+      "authors": [
+        "Audrey Niffenegger"
+      ],
+      "edition": "First edition",
+      "publication_date": "2003-01-01",
+      "purchase_date": "2024-05-15",
+      "location": "Bookshelf",
+      "genre": "Science Fiction",
+      "notes": "A unique and moving love story"
+    },
+    {
+      "id": "135",
+      "title": "The Thirteenth Tale",
+      "authors": [
+        "Diane Setterfield"
+      ],
+      "edition": "First edition",
+      "publication_date": "2006-01-01",
+      "purchase_date": "2024-06-01",
+      "location": "Bookshelf",
+      "genre": "Mystery",
+      "notes": "A haunting and suspenseful mystery"
+    },
+    {
+      "id": "136",
+      "title": "The Historian",
+      "authors": [
+        "Elizabeth Kostova"
+      ],
+      "edition": "First edition",
+      "publication_date": "2005-01-01",
+      "purchase_date": "2024-06-15",
+      "location": "Bookshelf",
+      "genre": "Horror",
+      "notes": "A chilling and atmospheric horror novel"
+    },
+    {
+      "id": "137",
+      "title": "The Secret History",
+      "authors": [
+        "Donna Tartt"
+      ],
+      "edition": "First edition",
+      "publication_date": "1992-01-01",
+      "purchase_date": "2024-07-01",
+      "location": "Bookshelf",
+      "genre": "Mystery",
+      "notes": "A gripping and suspenseful mystery"
+    },
+    {
+      "id": "138",
+      "title": "The Alienist",
+      "authors": [
+        "Caleb Carr"
+      ],
+      "edition": "First edition",
+      "publication_date": "1994-01-01",
+      "purchase_date": "2024-07-15",
+      "location": "Bookshelf",
+      "genre": "Mystery",
+      "notes": "A thrilling and suspenseful mystery"
+    },
+    {
+      "id": "139",
+      "title": "The Girl with the Dragon Tattoo",
+      "authors": [
+        "Stieg Larsson"
+      ],
+      "edition": "First edition",
+      "publication_date": "2005-01-01",
+      "purchase_date": "2024-08-01",
+      "location": "Bookshelf",
+      "genre": "Mystery",
+      "notes": "A gripping and suspenseful mystery"
+    },
+    {
+      "id": "140",
+      "title": "The Girl Who Played with Fire",
+      "authors": [
+        "Stieg Larsson"
+      ],
+      "edition": "First edition",
+      "publication_date": "2006-01-01",
+      "purchase_date": "2024-08-15",
+      "location": "Bookshelf",
+      "genre": "Mystery",
+      "notes": "A thrilling and suspenseful mystery"
+    },
+    {
+      "id": "141",
+      "title": "The Girl Who Kicked the Hornet's Nest",
+      "authors": [
+        "Stieg Larsson"
+      ],
+      "edition": "First edition",
+      "publication_date": "2007-01-01",
+      "purchase_date": "2024-09-01",
+      "location": "Bookshelf",
+      "genre": "Mystery",
+      "notes": "A gripping and suspenseful mystery"
     }
   ],
   "archive": [
