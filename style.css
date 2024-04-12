@@ -4,7 +4,7 @@
  }
  
  body {
-  background: url(assets/back.jpg) no-repeat;
+  background: url(https://i.pinimg.com/originals/d0/dc/05/d0dc05e07ab1e7c529dc6a6cfa48355d.gif);
   background-size: cover;
   font-family: Arial, sans-serif;
   margin: 0;
@@ -12,7 +12,7 @@
  }
  
  .header {
-  background: rgb(0, 0, 0);
+  background: url();
   color: black;
   display: flex;
   justify-content: center;
