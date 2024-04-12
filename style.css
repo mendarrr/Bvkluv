@@ -132,7 +132,6 @@
   padding: 10px;
   color: rgb(14, 15, 15);
   cursor: pointer;
-  display: none;
  }
 
  .btn-archive:hover{
@@ -157,7 +156,6 @@
  .list-containerlib {
   width: 50%;
   margin-left: 20px;
-  
  }
 
  .list-containerlib div:hover {
