@@ -3,7 +3,9 @@
     {
       "id": "1",
       "title": "The Hitchhiker's Guide to the Galaxy",
-      "authors": ["Douglas Adams"],
+      "authors": [
+        "Douglas Adams"
+      ],
       "edition": "1st",
       "publication_date": "1979-10-12",
       "purchase_date": "2021-06-01",
@@ -14,7 +16,9 @@
     {
       "id": "6",
       "title": "It Ends with Us",
-      "authors": ["Colleen Hoover"],
+      "authors": [
+        "Colleen Hoover"
+      ],
       "edition": "1st",
       "publication_date": "2016-08-02",
       "purchase_date": "2022-04-05",
@@ -25,7 +29,9 @@
     {
       "id": "7",
       "title": "Verity",
-      "authors": ["Colleen Hoover"],
+      "authors": [
+        "Colleen Hoover"
+      ],
       "edition": "1st",
       "public_date": "2018-12-07",
       "purchase_date": "2022-04-01",
@@ -36,7 +42,9 @@
     {
       "id": "8",
       "title": "The Whispering Forest",
-      "authors": ["Evelyn M. Turner"],
+      "authors": [
+        "Evelyn M. Turner"
+      ],
       "edition": "3rd Edition",
       "publication_date": "2022-03-15",
       "purchase_date": "2023-08-20",
@@ -47,7 +55,9 @@
     {
       "id": "9",
       "title": "The Midnight Library",
-      "authors": ["Matt Haig"],
+      "authors": [
+        "Matt Haig"
+      ],
       "edition": "1st Edition",
       "publication_date": "2021-09-10",
       "purchase_date": "2022-05-05",
@@ -58,7 +68,9 @@
     {
       "id": "10",
       "title": "The Night Circus",
-      "authors": ["Erin Morgenstern"],
+      "authors": [
+        "Erin Morgenstern"
+      ],
       "edition": "1st Edition",
       "publication_date": "2011-09-13",
       "purchase_date": "2023-02-28",
@@ -69,7 +81,9 @@
     {
       "id": "11",
       "title": "Educated",
-      "authors": ["Tara Westover"],
+      "authors": [
+        "Tara Westover"
+      ],
       "edition": "Paperback",
       "publication_date": "2018-02-20",
       "purchase_date": "2022-11-10",
@@ -80,7 +94,9 @@
     {
       "id": "12",
       "title": "The Night Circus",
-      "authors": ["Erin Morgenstern"],
+      "authors": [
+        "Erin Morgenstern"
+      ],
       "edition": "1st Edition",
       "publication_date": "2011-09-13",
       "purchase_date": "2023-02-28",
@@ -91,7 +107,9 @@
     {
       "id": "11",
       "title": "Educated",
-      "authors": ["Tara Westover"],
+      "authors": [
+        "Tara Westover"
+      ],
       "edition": "Paperback",
       "publication_date": "2018-02-20",
       "purchase_date": "2022-11-10",
@@ -102,7 +120,9 @@
     {
       "id": "13",
       "title": "The Lies of Locke Lamora",
-      "authors": ["Scott Lynch"],
+      "authors": [
+        "Scott Lynch"
+      ],
       "edition": "Mass Market Paperback",
       "publication_date": "2006-06-27",
       "purchase_date": "2022-08-15",
@@ -113,7 +133,9 @@
     {
       "id": "17",
       "title": "The Secret History",
-      "authors": ["Donna Tartt"],
+      "authors": [
+        "Donna Tartt"
+      ],
       "edition": "Trade Paperback",
       "publication_date": "1992-09-11",
       "purchase_date": "2023-03-18",
@@ -124,7 +146,9 @@
     {
       "id": "18",
       "title": "The Alchemist",
-      "authors": ["Paulo Coelho"],
+      "authors": [
+        "Paulo Coelho"
+      ],
       "edition": "Anniversary Edition",
       "publication_date": "1988-04-25",
       "purchase_date": "2024-02-02",
@@ -135,7 +159,9 @@
     {
       "id": "19",
       "title": "The Nightingale",
-      "authors": ["Kristin Hannah"],
+      "authors": [
+        "Kristin Hannah"
+      ],
       "edition": "Hardcover",
       "publication_date": "2015-02-03",
       "purchase_date": "2023-09-10",
@@ -146,7 +172,9 @@
     {
       "id": "20",
       "title": "The Wind-up Bird Chronicle",
-      "authors": ["Haruki Murakami"],
+      "authors": [
+        "Haruki Murakami"
+      ],
       "edition": "1st edition",
       "publication_date": "1994-04-12",
       "purchase_date": "2022-12-05",
@@ -157,7 +185,9 @@
     {
       "id": "21",
       "title": "The Power of Habit",
-      "authors": ["Charles Duhigg"],
+      "authors": [
+        "Charles Duhigg"
+      ],
       "edition": "Trade Paperback",
       "publication_date": "2012-02-28",
       "purchase_date": "2023-05-15",
@@ -168,7 +198,9 @@
     {
       "id": "24",
       "title": "The Forgotten Atlas",
-      "authors": ["Samuel Archer"],
+      "authors": [
+        "Samuel Archer"
+      ],
       "edition": "Collector's edition",
       "publication_date": "2022-11-30",
       "purchase_date": "2023-12-05",
@@ -179,7 +211,9 @@
     {
       "id": "25",
       "title": "Ink and Illusion",
-      "authors": ["Isabella Russo"],
+      "authors": [
+        "Isabella Russo"
+      ],
       "edition": "Limited edition",
       "publication_date": "2023-07-12",
       "purchase_date": "2023-09-02",
@@ -190,7 +224,9 @@
     {
       "id": "26",
       "title": "The Solitude Paradox",
-      "authors": ["Daniel Park"],
+      "authors": [
+        "Daniel Park"
+      ],
       "edition": "Paperback",
       "publication_date": "2024-04-02",
       "purchase_date": "2024-04-15",
@@ -201,20 +237,34 @@
     {
       "id": 1712870320298,
       "title": "In 27 Days",
-      "authors": ["Alison Gervais"],
+      "authors": [
+        "Alison Gervais"
+      ],
       "edition": "1st",
       "publication_date": "2017-07-25",
       "purchase_date": "2022-09-29",
       "location": "Bookshelf C",
       "genre": "Young Adult",
       "notes": "She makes a deal with the devil and now timee's running out"
+    },
+    {
+      "id": 1712883761595,
+      "title": "Serated",
+      "authors": "Sally Rooney",
+      "edition": "1st",
+      "publication_date": "2018-09-09",
+      "purchase_date": "2022-08-08",
+      "location": "Bookshelf C",
+      "genre": "Fiction"
     }
   ],
   "archive": [
     {
       "id": "29",
       "title": "The Velvet Hourglass",
-      "authors": ["Clara Bennett"],
+      "authors": [
+        "Clara Bennett"
+      ],
       "edition": "Signed first edition",
       "publication_date": "2024-01-15",
       "purchase_date": "2024-03-05",
@@ -225,7 +275,9 @@
     {
       "id": "30",
       "title": "The Quantum Paradox",
-      "authors": ["Ryan Lee"],
+      "authors": [
+        "Ryan Lee"
+      ],
       "edition": "Audio book",
       "publication_date": "2023-11-10",
       "purchase_date": "2024-02-28",
@@ -236,7 +288,9 @@
     {
       "id": "31",
       "title": "The Glass Orchid",
-      "authors": ["Elena Martinez"],
+      "authors": [
+        "Elena Martinez"
+      ],
       "edition": "Leather-bound",
       "publication_date": "2022-08-20",
       "purchase_date": "2023-06-10",
@@ -247,7 +301,9 @@
     {
       "id": "33",
       "title": "Quantum Nexus",
-      "authors": ["Alexandra J. Reynolds"],
+      "authors": [
+        "Alexandra J. Reynolds"
+      ],
       "edition": "1st Edition",
       "publication_date": "2023-06-10",
       "purchase_date": "2023-11-02",
@@ -258,7 +314,9 @@
     {
       "id": "34",
       "title": "The Synth Chronicles",
-      "authors": ["Evan K. Mercer"],
+      "authors": [
+        "Evan K. Mercer"
+      ],
       "edition": "3rd Edition",
       "publication_date": "2021-09-05",
       "purchase_date": "2022-05-18",
@@ -269,7 +327,9 @@
     {
       "id": "35",
       "title": "Switchable Neutral Algorithm",
-      "authors": ["Samantha, Jasmine, Matthew"],
+      "authors": [
+        "Samantha, Jasmine, Matthew"
+      ],
       "edition": "2nd Edition",
       "publication_date": "2023-02-28",
       "purchase_date": "2023-07-10",
@@ -280,7 +340,9 @@
     {
       "id": "36",
       "title": "Love in the Mist",
-      "authors": ["Evelyn Harper"],
+      "authors": [
+        "Evelyn Harper"
+      ],
       "edition": "1st Edition",
       "publication_date": "2022-03-15",
       "purchase_date": "2023-09-20",
@@ -291,7 +353,9 @@
     {
       "id": "37",
       "title": "Whispers at Twilight",
-      "authors": ["Isabella Rivers"],
+      "authors": [
+        "Isabella Rivers"
+      ],
       "edition": "2nd Edition",
       "publication_date": "2021-08-10",
       "purchase_date": "2023-04-05",
@@ -302,7 +366,9 @@
     {
       "id": "38",
       "title": "Midnight Serenade",
-      "authors": ["Lucia Montgomery"],
+      "authors": [
+        "Lucia Montgomery"
+      ],
       "edition": "3rd Edition",
       "publication_date": "2020-11-28",
       "purchase_date": "2023-01-10",
@@ -313,7 +379,9 @@
     {
       "id": "39",
       "title": "The Art of Holding Hands",
-      "authors": ["Oliver Bennett"],
+      "authors": [
+        "Oliver Bennett"
+      ],
       "edition": "1st Edition",
       "publication_date": "2023-02-05",
       "purchase_date": "2024-03-18",
@@ -324,7 +392,9 @@
     {
       "id": "40",
       "title": "Sunset Embrace",
-      "authors": ["Lila Adams"],
+      "authors": [
+        "Lila Adams"
+      ],
       "edition": "4th Edition",
       "publication_date": "2019-06-22",
       "purchase_date": "2023-11-02",
@@ -335,7 +405,9 @@
     {
       "id": "41",
       "title": "Moonlit Whispers",
-      "authors": ["Serena Blake"],
+      "authors": [
+        "Serena Blake"
+      ],
       "edition": "1st Edition",
       "publication_date": "2023-05-12",
       "purchase_date": "2024-02-10",
@@ -346,7 +418,9 @@
     {
       "id": "42",
       "title": "Café au Lait and Love Letters",
-      "authors": ["Sophie Laurent"],
+      "authors": [
+        "Sophie Laurent"
+      ],
       "edition": "2nd Edition",
       "publication_date": "2022-09-05",
       "purchase_date": "2023-12-20",
@@ -357,7 +431,9 @@
     {
       "id": "43",
       "title": "The Bookshop on Maple Street",
-      "authors": ["Olivia Bennett"],
+      "authors": [
+        "Olivia Bennett"
+      ],
       "edition": "1st Edition",
       "publication_date": "2023-03-18",
       "purchase_date": "2024-01-05",
@@ -368,7 +444,9 @@
     {
       "id": "44",
       "title": "Sunflowers and Serendipity",
-      "authors": ["Lucas Adams"],
+      "authors": [
+        "Lucas Adams"
+      ],
       "edition": "3rd Edition",
       "publication_date": "2021-11-10",
       "purchase_date": "2023-08-15",
@@ -379,7 +457,9 @@
     {
       "id": "45",
       "title": "The Midnight Library of Lost Loves",
-      "authors": ["Nora Sinclair"],
+      "authors": [
+        "Nora Sinclair"
+      ],
       "edition": "1st Edition",
       "publication_date": "2023-01-30",
       "purchase_date": "2024-04-02",
@@ -390,7 +470,9 @@
     {
       "id": "46",
       "title": "The Silent Conspiracy",
-      "authors": ["Alexandra Blake"],
+      "authors": [
+        "Alexandra Blake"
+      ],
       "edition": "1st Edition",
       "publication_date": "2023-07-20",
       "purchase_date": "2024-02-28",
@@ -401,7 +483,9 @@
     {
       "id": "47",
       "title": "Shadows in the Fog",
-      "authors": ["Duncan Monroe"],
+      "authors": [
+        "Duncan Monroe"
+      ],
       "edition": "2nd Edition",
       "publication_date": "2022-11-12",
       "purchase_date": "2023-09-10",
