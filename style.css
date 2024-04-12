@@ -37,8 +37,8 @@
  .app-icon {
   display: flex;
   align-items: center;
-  font-size: 50px;
-  color: rgb(179, 110, 8);
+  font-size: 60px;
+  background: transparent;
  }
  
  .content {
@@ -50,7 +50,7 @@
   font-size: 100px;
   font-weight: 600;
   background: url(/assets/background.jpg);
-  -webkit-text-stroke: 2px #944700;
+  -webkit-text-stroke: 2px #000000;
   background-clip: text;
   background-position: 0 0;
   animation: back 25s linear infinite;
@@ -158,7 +158,7 @@
  }
 
  .list-containerArchive div:hover{
-  background-color: rgb(105, 230, 255);
+  background-color: rgb(27, 240, 255);
   color: black;
   transform: translateY(-15px);
  }
@@ -169,7 +169,7 @@
  }
 
  .list-containerlib div:hover {
-  background: lavenderblush;
+  background:rgb(27, 240, 255);
   transform: translateY(-15px);
  }
 
