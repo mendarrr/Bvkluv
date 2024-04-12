@@ -233,29 +233,6 @@
       "location": "Cozy reading corner",
       "genre": "Contemporary fiction",
       "notes": "Introspective exploration of human connections"
-    },
-    {
-      "id": 1712870320298,
-      "title": "In 27 Days",
-      "authors": [
-        "Alison Gervais"
-      ],
-      "edition": "1st",
-      "publication_date": "2017-07-25",
-      "purchase_date": "2022-09-29",
-      "location": "Bookshelf C",
-      "genre": "Young Adult",
-      "notes": "She makes a deal with the devil and now timee's running out"
-    },
-    {
-      "id": 1712883761595,
-      "title": "Serated",
-      "authors": "Sally Rooney",
-      "edition": "1st",
-      "publication_date": "2018-09-09",
-      "purchase_date": "2022-08-08",
-      "location": "Bookshelf C",
-      "genre": "Fiction"
     }
   ],
   "archive": [

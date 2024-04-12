@@ -51,7 +51,7 @@ function accessBooks() {
   });
 
   booklist.addEventListener("click", (event) => {
-    if (event.target.tagName === "LI") {
+    if (event.target.tagName === "li") {
       const id = event.target.dataset.bookId;
       showBookDetails(id);
     }
@@ -180,6 +180,7 @@ function formSubmission(event) {
   const purchase_date = document.getElementById("purchase_date").value;
   const location = document.getElementById("location").value;
   const genre = document.getElementById("genre").value;
+  const notes = document.getElementById("notes").value;
 
   fetch("http://localhost:3000/books", {
     method: "POST",
@@ -196,6 +197,7 @@ function formSubmission(event) {
       purchase_date: purchase_date,
       location: location,
       genre: genre,
+      notes: notes,
     }),
   })
     .then((response) => response.json())
