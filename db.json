@@ -350,19 +350,6 @@
       "location": "Bookshelf",
       "genre": "Mystery",
       "notes": "A thrilling and suspenseful mystery"
-    },
-    {
-      "id": "141",
-      "title": "The Girl Who Kicked the Hornet's Nest",
-      "authors": [
-        "Stieg Larsson"
-      ],
-      "edition": "First edition",
-      "publication_date": "2007-01-01",
-      "purchase_date": "2024-09-01",
-      "location": "Bookshelf",
-      "genre": "Mystery",
-      "notes": "A gripping and suspenseful mystery"
     }
   ],
   "archive": [
@@ -417,6 +404,30 @@
       "location": "Study room",
       "genre": "Science Fiction",
       "notes": "A mind-bending journey through parallel universes, where quantum entanglement becomes a gateway to alternate realities. Reynolds weaves intricate plots and multidimensional characters, leaving readers questioning the very fabric of existence."
+    },
+    {
+      "id": "141",
+      "title": "The Girl Who Kicked the Hornet's Nest",
+      "authors": [
+        "Stieg Larsson"
+      ],
+      "edition": "First edition",
+      "publication_date": "2007-01-01",
+      "purchase_date": "2024-09-01",
+      "location": "Bookshelf",
+      "genre": "Mystery",
+      "notes": "A gripping and suspenseful mystery"
+    },
+    {
+      "id": 1713773520346,
+      "title": "Sunset Embrace",
+      "authors": "Lila Adams",
+      "edition": "4th",
+      "publication_date": "2019-06-22",
+      "purchase_date": "2023-11-02",
+      "location": "Shelf C",
+      "genre": "Romance",
+      "notes": " Set against the backdrop of a vineyard in Tuscany, this novel weaves together love, loss, and the healing power of family. The descriptions of sunsets are achingly beautiful"
     },
     {
       "id": "34",
@@ -495,19 +506,6 @@
       "location": "Shelf A",
       "genre": "Romance",
       "notes": "A slow-burn romance that explores the complexities of human connection. The prose is lyrical, and the characters linger in your thoughts long after you've turned the last page."
-    },
-    {
-      "id": "40",
-      "title": "Sunset Embrace",
-      "authors": [
-        "Lila Adams"
-      ],
-      "edition": "4th Edition",
-      "publication_date": "2019-06-22",
-      "purchase_date": "2023-11-02",
-      "location": "Shelf B",
-      "genre": "Romance",
-      "notes": "Set against the backdrop of a vineyard in Tuscany, this novel weaves together love, loss, and the healing power of family. The descriptions of sunsets are achingly beautiful."
     },
     {
       "id": "41",

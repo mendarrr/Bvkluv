@@ -96,7 +96,7 @@ function accessArchive() {
             const li = document.createElement("li");
             li.textContent = `${book.title}`;
 
-            // Add a delete button for each book listed in the archive
+            // Add a delete button for each book listed in the archivej
             const deleteBtn = document.createElement("button");
             // Add a class list for easy styling in CSS
             deleteBtn.classList.add("btn", "btn-danger");
@@ -142,6 +142,7 @@ function deleteBook(bookId) {
         if (listItemToRemove) {
           listItemToRemove.remove();
         }
+        window.alert("Book deleted successfully");
       } else {
         throw new Error("Error deleting book");
       }
@@ -203,6 +204,7 @@ function formSubmission(event) {
     .then((response) => response.json())
     .then((books) => {
       console.log("Book added:" + books.length);
+      window.alert("Book added successfully");
     })
     .catch((error) => console.error("Error: " + error));
 }
